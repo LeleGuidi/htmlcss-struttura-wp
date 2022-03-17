@@ -4,7 +4,7 @@
     border-style: border-box;
 }
 
-#contenitore {
+.main-cont {
     margin: auto;
     max-width: 1100px;
 }
@@ -12,4 +12,24 @@
 header {
     background-color: #e579e6;
     min-height: 100px;
+}
+
+.cont {
+margin-top: 30px;
+}
+
+.cont.yellow {
+    min-height: 500px;
+}
+
+.yellow {
+    background-color: #e1d67a;
+}
+
+.cont.blue {
+    min-height: 650px;
+}
+
+.blue {
+    background-color: #0186fd;
 }
